@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #bdbdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa {
+    width: 700px;
+    border: 2px solid #555;
+    background-color: #d9d9d9;
+}
+
+.topo {
+    background: linear-gradient(#f28c00, #d86f00);
+    color: #fff;
+    padding: 8px 20px;
+    border-bottom: 2px solid #9b4f00;
+}
+
+.topo h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dados-cliente {
+    padding: 12px;
+    background-color: #d9d9d9;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.campo label {
+    width: 70px;
+    font-size: 14px;
+}
+
+.campo input,
+.campo select {
+    flex: 1;
+    height: 28px;
+    border: 1px solid #999;
+    padding: 5px;
+}
+
+.campo button {
+    width: 32px;
+    height: 28px;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.resumo {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1c48f;
+    padding: 8px;
+    border-top: 2px solid #b87d44;
+    border-bottom: 2px solid #b87d44;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.item span {
+    font-size: 18px;
+}
+
+.valor {
+    width: 130px;
+    background-color: #fff;
+    border: 1px solid #888;
+    padding: 6px 10px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mensagem {
+    height: 160px;
+    margin: 10px;
+    background-color: #5c79a6;
+    border: 2px solid #8fa3c4;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1c48f;
+    padding: 8px;
+    border-top: 2px solid #b87d44;
+    border-bottom: 2px solid #b87d44;
+}
+
+.item-total {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item-total span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.valor-total {
+    width: 160px;
+    background-color: #fff;
+    border: 1px solid #888;
+    padding: 8px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pagamentos {
+    height: 170px;
+    background-color: #ecefb9;
+    border-top: 1px solid #999;
+    overflow-y: auto;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rodape {
+    padding: 5px;
+    font-size: 14px;
+    border-top: 1px solid #999;
+    background-color: #e8d4c2;
+}

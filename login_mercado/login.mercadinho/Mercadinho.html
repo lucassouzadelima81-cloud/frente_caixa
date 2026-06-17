@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Disponível</title>
+    <link rel="stylesheet" href="./mercadinho.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="topo">
+            <h1>CAIXA DISPONÍVEL</h1>
+
+            <div class="info">
+                <span>Cliente | Cliente não identificado</span>
+                <span>Limite disponível |</span>
+                <span>Operador | IVANETE</span>
+                <span>Operação |</span>
+                <span>Data | 12/06/2026</span>
+            </div>
+        </header>
+
+        <main class="conteudo">
+
+            <section class="painel-esquerdo">
+
+                <div class="codigo">
+                    CÓDIGO / REF / DESCRIÇÃO
+                </div>
+
+                <div class="imagem-produto">
+                    <img src="./img/image.png" alt="">
+                </div>
+
+                <div class="dados">
+                    <div class="campo">VALOR</div>
+                    <div class="campo">QUANTIDADE</div>
+                    <div class="campo">TOTAL</div>
+                </div>
+
+                <div class="total-geral">
+                    <span>TOTAL:</span>
+                    <h2>0,00</h2>
+                </div>
+
+            </section>
+
+            <section class="painel-direito">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>CÓDIGO</th>
+                            <th>DESCRIÇÃO</th>
+                            <th>VALOR</th>
+                            <th>QTDE</th>
+                            <th>TOTAL</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td colspan="5" class="vazio">
+                                Nenhum item adicionado
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="atalhos">
+                    <span>F1 - Produto</span>
+                    <span>F2 - Cliente</span>
+                    <span>F3 - Cancelar</span>
+                    <span id="finalizar-compra" onclick="irParaFinalizar()">Finalizar Compra</span>
+                    <span>F9 - Trocar Usuário</span>
+                    <span>F11 - Impressão</span>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="./redirecionamento.js"></script>
+</body>
+</html>
